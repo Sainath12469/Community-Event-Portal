@@ -72,7 +72,7 @@ p{
 
 .eventCard{
 
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgb(206, 144, 144);
 
     width:45%;
 
@@ -84,7 +84,9 @@ p{
 
     border-radius:10px;
 }
-
+.eventCard h3,p{
+    color:black;
+}
 .eventCard img{
     width:100%;
 }
@@ -186,11 +188,20 @@ td{
 }
 
 tr:nth-child(even){
-    background:#f2f2f2;
+    background:#ac3e3e;
+}
+tr:nth-child(odd)
+{
+    background:white;
 }
 
 /* Form Outline*/
-
+.form{
+    margin :10px 50px;
+    border:2px solid black;
+    width: 250px;
+    padding :10px;
+}
 .selected-field:focus{
     outline:3px solid orange;
 }
